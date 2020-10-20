@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <div class="logo" >
+        <div id="logo" >
             <img src="logo.png">
         </div>
         <nav>
@@ -16,6 +16,11 @@
             <a href="#news">News</a>
             <a href="#contact">Contact</a>
             <a href="#about">About</a>
+            <div id="burger-menu">
+            <div></div>
+            <div></div>
+            <div></div>
+            </div>
         </nav>
     </header>
 
@@ -24,38 +29,41 @@
     </aside>
 
     <main>
-        <section class="vh-45 flex-box">
-            <article class="bg-blue w-50">
+
+        <section class="primary-section">
+            <article class="large">
                 Article 1
             </article>
-            <div class="bg-green w-50 c-w-flex">
-                <article class="s-article">
+            <div class="large grid-flex">
+                <article class="small">
                     2
                 </article>
-                <article class="s-article">
+                <article class="small">
                     3
                 </article>
-                <article class="s-article">
+                <article class="small">
                     4
                 </article>
-                <article class="s-article">
+                <article class="small">
                     5
                 </article>
             </div>
         </section>
-        <section class="vh-45 bg-red p-vh-25 flex-box">
-            <article class="bg-green vh-40 w-33">
+
+        <section class="secondary-section">
+            <article class="medium">
 
             </article>
-            <div class="vh-40 w-33 column-flex">
-                <article class="border h-100"></article>
-                <article class="border h-100"></article>
-                <article class="border h-100"></article>
+            <div class="medium column-flex">
+                <article class="col-box"></article>
+                <article class="col-box"></article>
+                <article class="col-box"></article>
             </div>
-            <article class="bg-blue vh-40 w-33">
+            <article class="medium">
                 
             </article>
         </section>
+        
     </main>
 
     <aside id="ad">
